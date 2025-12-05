@@ -192,7 +192,7 @@ class _MechanicDetailScreenState extends State<MechanicDetailScreen> {
           ],
         ),
         child: CustomButton(
-          text: mechanic.isAvailable ? 'Book Now' : 'Not Available',
+          text: mechanic.isAvailable ? 'Get Now' : 'Not Available',
           onPressed: mechanic.isAvailable
               ? () => context.push('/booking/${mechanic.id}')
               : null,

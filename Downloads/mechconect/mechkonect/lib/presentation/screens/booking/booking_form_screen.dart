@@ -167,7 +167,7 @@ class _BookingFormScreenState extends State<BookingFormScreen> {
               ),
               const SizedBox(height: AppDimensions.spacingXXL),
               CustomButton(
-                text: 'Confirm Booking',
+                text: 'Confirm Request',
                 onPressed: bookingProvider.isLoading ? null : _handleSubmit,
                 isLoading: bookingProvider.isLoading,
               ),
